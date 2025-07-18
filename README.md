@@ -1,18 +1,32 @@
-# Salesforce DX Project: Next Steps
+# HandsMen-Threads-Salesforce-Project
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+HandsMen Threads, a dynamic organization in the fashion industry, is embarking on a Salesforce project designed to revolutionize their data management and enhance customer relations.
 
-## How Do You Plan to Deploy Your Changes?
+This project involves:
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+- Building a robust data model tailored to store all pertinent business data
+- Creating custom objects like `Order__c` and `Inventory__c`
+- Automating workflows using Flows and Apex triggers
+- Scheduling inventory sync jobs
+- Retrieving metadata via `package.xml` using Salesforce DX
+- Version controlling and collaborating through GitHub
 
-## Configure Your Salesforce DX Project
+## How to Use This Repository
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+1. **Clone the repo**
+2. **Authorize your Salesforce Org**
+3. **Deploy metadata via VS Code or Salesforce CLI**
 
-## Read All About It
+## Technologies Used
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+- Salesforce Platform
+- Salesforce DX (SFDX)
+- Apex
+- Flow Builder
+- Git & GitHub
+- VS Code with Salesforce Extensions
+
+---
+
+> 💡 For contributors: Please make sure you’re working on a new branch and submit pull requests for review.
+
