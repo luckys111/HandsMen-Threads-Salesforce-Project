@@ -22,6 +22,7 @@ This project involves:
 - Salesforce Platform
 - Salesforce DX (SFDX)
 - Apex
+- Triggers
 - Flow Builder
 - Git & GitHub
 - VS Code with Salesforce Extensions
